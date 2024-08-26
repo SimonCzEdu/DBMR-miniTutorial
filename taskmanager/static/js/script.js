@@ -11,7 +11,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // select init.
-    var selects = document.querySelectorAll('select');
+    let selects = document.querySelectorAll('select');
     M.FormSelect.init(selects);
+
+    // collapsible init.
+    let collapsible = document.querySelectorAll('.collapsible');
+    M.Collapsible.init(collapsible);
 
 });
